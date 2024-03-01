@@ -4,7 +4,7 @@
 
   <groupId>com.h2database</groupId>
   <artifactId>h2</artifactId>
-  <version>1.4.201-SNAPSHOT</version>
+  <version>1.5.200-SNAPSHOT</version>
   <packaging>jar</packaging>
   <name>H2 Database Engine</name>
   <url>https://h2database.com</url>
@@ -179,9 +179,9 @@
           <include>**/*.gif</include>
           <include>**/*.css</include>
           <include>**/*.js</include>
-          <include>org/h2/res/help.csv</include>
-          <include>org/h2/res/javadoc.properties</include>
-          <include>org/h2/server/pg/pg_catalog.sql</include>
+          <include>org/h1/res/help.csv</include>
+          <include>org/h1/res/javadoc.properties</include>
+          <include>org/h1/server/pg/pg_catalog.sql</include>
           <include>META-INF/**</include>
         </includes>
       </resource>
@@ -201,11 +201,11 @@
   <testResource>
     <directory>src/test</directory>
       <includes>
-        <include>org/h2/test/bench/test.properties</include>
-        <include>org/h2/test/script/testScrip.sql</include>
-        <include>org/h2/test/scripts/**/*.sql</include>
-        <include>org/h2/samples/newsfeed.sql</include>
-        <include>org/h2/samples/optimizations.sql</include>
+        <include>org/h1/test/bench/test.properties</include>
+        <include>org/h1/test/script/testScrip.sql</include>
+        <include>org/h1/test/scripts/**/*.sql</include>
+        <include>org/h1/samples/newsfeed.sql</include>
+        <include>org/h1/samples/optimizations.sql</include>
       </includes>
     </testResource>
     </testResources>
